@@ -1,3 +1,9 @@
+body {
+    background-image: url("https://hdbackgroundspot.com//storage/upload/photography-background/photography-background-14.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #container {
     text-align: justify;
 }
@@ -47,9 +53,16 @@
     
 }
 
-.column {
-    margin-left: 10px;
-    margin-bottom: 10px;
+.crystals {
+    display: flex;
+    align-items: center;
+}
+
+.crystal {
+    border: 1px solid green;
+    height: 150px;
+    width: 160px;
+    margin-bottom: 20px;
 }
 
 .total-box {

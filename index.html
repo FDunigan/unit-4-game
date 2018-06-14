@@ -8,9 +8,10 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body background="https://i.ytimg.com/vi/XRtkIcUX97w/maxresdefault.jpg">
+
+<body>
 
 <div id="container">
 
@@ -37,43 +38,32 @@
 <div class="row">
  <div class="col-md-3">
   <div class="number-box">
-   <p>Number</p>
+   <h4>Number to Guess: <span id="number-to-guess"></span></h4>
   </div>
 </div>
  
 <div class="col-md-3">
  <div class="win-loss-box">
-  <p>Wins: </p>
-  <p>Losses: </p>
+  <h4>Wins: <span id="wins"></span></h4>
+  <h4>Losses: <span id="losses"></span></h4>
  </div>
 </div>
 </div>
 
-<div class="row">
- <div class="column">
-  <img src="http://www.crystalclearintentions.co.nz/wp-content/uploads/crystals.jpg" width="120" height="120">
- </div>
- <div class="column">
-  <img src="https://www.rd.com/wp-content/uploads/2017/08/13_crystal_Reasons-Why-You-Should-Give-Crystals-a-Try_364248173_Abra-Cadabraaa-380x254.jpg" width="120" height="120">
- </div>
- <div class="column">
-  <img src="https://www.sarahelizabethtodd.com/wp-content/uploads/2016/11/shutterstock_105784286.jpg" width="120" height="120">
- </div>
- <div class="column">
-  <img src="https://images-na.ssl-images-amazon.com/images/I/51snWRfynML._US500_.jpg" width="120" height="120">
- </div>
+<div class="crystals">
 </div>
 
 <div class="row">
  <div class="col-md-3">
   <div class="total-box">
-   <p>Your total score is: </p>
-   <p>Number</p>
+   <h4>Your total score is: <span id="total-score"></span></h4>
   </div>
  </div>
-</div>
+</div>  
 
 </div>
+
+<script src="assets/javascript/game.js"></script>
     
 </body>
 </html>
