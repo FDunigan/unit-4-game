@@ -38,7 +38,6 @@ var crystal = $("<div>");
 
 resetAndStart();
 
-
 $(document).on('click', ".crystal", function(){
 
     var num = parseInt($(this).attr('data-random'));
